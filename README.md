@@ -1,5 +1,5 @@
 
-    This example replicates code from this [source](https://thinkingneuron.com/bike-rental-demand-prediction-case-study-in-python/), but shows what the results would look like if part of the target variable was not included in the training. 
+    This example replicates code from this source: https://thinkingneuron.com/bike-rental-demand-prediction-case-study-in-python/, but shows what the results would look like if part of the target variable was not included in the training. 
     The source unfortunately makes the mistake of including "registered" users in the prediction 
     of the total number of users, which is highly correlated (r=0.97). At that point, it would 
     be faster to just look at registered users instead of using machine learning to solve the problem. 
